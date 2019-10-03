@@ -1,0 +1,7 @@
+C:\git\Zajecia1\Zajecia1\Zajecia1\bin\Debug\Zajecia1.exe.config
+C:\git\Zajecia1\Zajecia1\Zajecia1\bin\Debug\Zajecia1.exe
+C:\git\Zajecia1\Zajecia1\Zajecia1\bin\Debug\Zajecia1.pdb
+C:\git\Zajecia1\Zajecia1\Zajecia1\obj\Debug\Zajecia1.csprojAssemblyReference.cache
+C:\git\Zajecia1\Zajecia1\Zajecia1\obj\Debug\Zajecia1.csproj.CoreCompileInputs.cache
+C:\git\Zajecia1\Zajecia1\Zajecia1\obj\Debug\Zajecia1.exe
+C:\git\Zajecia1\Zajecia1\Zajecia1\obj\Debug\Zajecia1.pdb
