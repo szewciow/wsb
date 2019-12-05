@@ -1,23 +1,46 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace gwizd
+using System.IO;
+
+
+namespace _8pliki
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string z;
-            z = Console.ReadLine();
-            int w;
-            if (int.TryParse(z, out w))
+            DirectoryInfo wsbDir = new DirectoryInfo(".");
+            Console.WriteLine(wsbDir.FullName);
+
+            //DirectoryInfo studentDir = new DirectoryInfo("C:\\Users\\Student\\Desktop");
+            DirectoryInfo studentDir = new DirectoryInfo(@"C:\Users\Student\Desktop"); //studentDir przechowuje informacje o tej konkretnej lokalizacji 
+            Console.WriteLine(studentDir.FullName);//nazwa folderu
+            Console.WriteLine(studentDir.Name);//folder nadrzędny
+            Console.WriteLine(studentDir.Parent);
+            Console.WriteLine(studentDir.Attributes);
+            Console.WriteLine(studentDir.CreationTime);
+
+            DirectoryInfo dataDir = new DirectoryInfo(@"C:\Users\Student\C#Files");
+            string[] customers =
             {
-                for (int a = 1; a <= w; a++)
-                {
-                    for (int b = 0; b < a; b++)
-                        Console.Write("*");
-                    Console.WriteLine();
-                }
-            }
+                "Agnieszka Nowak",
+                "Anna Nowak",
+                "Tomasz Kowalski"
+            };
+            Directory.CreateDirectory(@"C:\Users\Student\C#Files");
+            string path = @"C:\Users\Student\C#Files";
+            string textFilePath = @"C:\Users\Student\C#Files\testFile1.txt";
+            File.WriteAllLines(textFilePath, customers);
+
+
+
+
+
+            Console.ReadKey();
         }
     }
 }
