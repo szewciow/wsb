@@ -1,0 +1,9 @@
+C:\Users\Student\source\repos\kolorki\kolorki\bin\Debug\kolorki.exe.config
+C:\Users\Student\source\repos\kolorki\kolorki\bin\Debug\kolorki.exe
+C:\Users\Student\source\repos\kolorki\kolorki\bin\Debug\kolorki.pdb
+C:\Users\Student\source\repos\kolorki\kolorki\obj\Debug\kolorki.csprojAssemblyReference.cache
+C:\Users\Student\source\repos\kolorki\kolorki\obj\Debug\kolorki.Form1.resources
+C:\Users\Student\source\repos\kolorki\kolorki\obj\Debug\kolorki.Properties.Resources.resources
+C:\Users\Student\source\repos\kolorki\kolorki\obj\Debug\kolorki.csproj.GenerateResource.cache
+C:\Users\Student\source\repos\kolorki\kolorki\obj\Debug\kolorki.exe
+C:\Users\Student\source\repos\kolorki\kolorki\obj\Debug\kolorki.pdb
